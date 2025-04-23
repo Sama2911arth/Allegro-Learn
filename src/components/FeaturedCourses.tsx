@@ -1,7 +1,5 @@
 "use client";
 import React from 'react'
-import { Button } from '@/components/ui/moving-border'
-import { ButtonsCard } from "./ui/tailwindcss-buttons";
 import Link from 'next/link'
 import { BackgroundGradient } from './ui/background-gradient';
 import courseData from '@/data/music_courses.json'

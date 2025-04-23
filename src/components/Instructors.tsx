@@ -2,7 +2,6 @@
 import React from 'react'
 import { Boxes } from './ui/background-boxes';
 import { AnimatedTooltip } from './ui/animated-tooltip';
-import { cn } from "@/lib/utils";
 
 const instructors = [
     {

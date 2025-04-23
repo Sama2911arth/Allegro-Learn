@@ -2,7 +2,6 @@
 import React from 'react';
 import { HoverEffect } from './ui/card-hover-effect';
 import Link from 'next/link';
-import { link } from 'fs';
 
 
 
@@ -81,6 +80,7 @@ function UpcomingWebinars() {
                                 title: webinar.title,
                                 description: webinar.description,
                                 link: webinar.link,
+                                key: webinar.slug,
                             }
                         ))}
                     />
